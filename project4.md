@@ -92,6 +92,27 @@ STEP 3: INSTALL EXPRESS
 
 ![installing express and mongoose](./images/installing_express/installing_express%26mongoose.png)
 
+`mkdir apps && cd apps`
+
+![making and cd to apps directory](./images/installing_express/making%26changing_to_apps_directory.png)
+
+`vi routes.js`
+
+![routes.js file contents](./images/installing_express/routes.js_file.png)
+
+`mkdir models && cd models`
+
+![making and cd to models directory](./images/installing_express/making_and_cd_to_models_directory.png)
+
+`vi book.js`
+
+![book.js file contents](./images/installing_express/book.js_contents.png)
+
+STEP 4 ACCESS THE ROUTES WITH AngularJS
+
+
+
+
 
 
 
