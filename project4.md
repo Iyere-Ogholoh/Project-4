@@ -110,6 +110,50 @@ STEP 3: INSTALL EXPRESS
 
 STEP 4 ACCESS THE ROUTES WITH AngularJS
 
+`../..` (change directory to Books)
+
+`mkdir public && cd public`
+
+[mkdir public && cd public](./images/accessing_routes_with_AngularJS/making%26changing_to_public_directory.png)
+
+`vi script.js`
+
+![script.js contents](./images/accessing_routes_with_AngularJS/script.js_contents.png)
+
+`vi index.html`
+
+[index.html contents](./images/accessing_routes_with_AngularJS/index.html_contents.png)
+
+cd to Books
+
+`cd ..`
+
+start server by running command below
+
+`node server.js`
+
+![starting server](./images/accessing_routes_with_AngularJS/starting_server.png)
+
+`curl -s http://localhost:3300`
+
+![curl command](./images/accessing_routes_with_AngularJS/curl_command.png)
+
+Open TCP port 3300 in your AWS Web Console for your EC2 Instance.
+
+![opening TCP port 3300](./images/accessing_routes_with_AngularJS/project4_security_group.png)
+
+`curl -s http://169.254.169.254/latest/meta-data/public-ipv4`
+
+`curl -s http://169.254.169.254/latest/meta-data/public-hostname`
+
+![curl commands](./images/accessing_routes_with_AngularJS/curl_commands.png)
+
+http://3.78.187.248:3300/
+
+[book register on browser](http://3.78.187.248:3300/)
+
+
+
 
 
 
